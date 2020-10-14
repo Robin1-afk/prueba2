@@ -5,7 +5,7 @@ if ($conexion->connect_errno){
 
     die('Error de conexion' . $conexion->connect_errno);
 }else {
-    die('Exito');
+    echo "<script> alert('jajajaja no mmes')</script>";
 }
-
+echo "<script> alert('jajajaja no mmes')</script>";
 ?>
